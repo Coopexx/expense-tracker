@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.totalCashflow {
+    margin-left: 4rem;
+    color: #252a34;
+}
+
+.earnedSpentContainer {
+    flex: 1;
+}
+
+.earnedSpentInnerContainer {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.earned {
+    background-color: #ff7f3f;
+    height: 1rem;
+    border-radius: 1rem;
+    width: 100%;
+    animation: progressBarEarned 1s ease-in-out;
+}
+
+.spent {
+    background-color: #fbdf07;
+    height: 1rem;
+    border-radius: 1rem;
+    width: 30%;
+    animation: progressBarSpent 1s ease-in-out;
+}
+
+.amount {
+    white-space: nowrap;
+    margin-left: 2px;
+    color: #73777b;
+}
+
+@keyframes progressBarEarned {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes progressBarSpent {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 30%;
+    }
+}

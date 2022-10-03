@@ -1,0 +1,20 @@
+.captionContainer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.month {
+    color: #ff2e63;
+}
+
+.amountLeftContainer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.amountLeft {
+    margin-top: 10px;
+    color: #252a34;
+}

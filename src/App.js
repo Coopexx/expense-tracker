@@ -1,8 +1,11 @@
-import classes from './App.module.css'
-import Balance from './components/overview/Balance'
-import Expenses from './components/overview/Expenses'
-import Navigation from './components/overview/Navigation'
-import Profile from './components/overview/Profile'
+import classes from './App.module.css';
+import Navigation from './components/overview/Navigation';
+import Profile from './components/overview/Profile';
+import Balance from './components/overview/Balance';
+import Budget from './components/overview/Budget';
+import Cashflow from './components/overview/Cashflow';
+import SpendingMonthly from './components/overview/SpendingMonthly';
+import SpendingCategories from './components/overview/SpendingCategories';
 
 function App() {
     return (
@@ -12,9 +15,12 @@ function App() {
                 <Profile />
             </div>
             <Balance />
-            <Expenses />
+            <Budget />
+            <Cashflow />
+            <SpendingCategories />
+            <SpendingMonthly />
         </div>
-    )
+    );
 }
 
-export default App
+export default App;

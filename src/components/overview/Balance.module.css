@@ -1,0 +1,21 @@
+.styleHorizontal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    background-color: #252a34;
+    border-radius: 1.5rem;
+    color: white;
+}
+
+.symbol {
+}
+
+.amount {
+}
+
+.currency {
+    color: #ff2e63;
+}
